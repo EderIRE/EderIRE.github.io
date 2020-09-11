@@ -1,0 +1,141 @@
+body {
+  background: url(https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+.Back {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #FFF8CE;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 300px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 6px #888888;
+  transform: rotateX(40deg);
+  animation: one 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes one {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(50deg);
+  }
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+}
+
+
+.buttonR {
+  border-radius: 60px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.buttonR span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonR span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonR:hover span {
+  padding-right: 25px;
+}
+
+.buttonR:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.reg {
+  
+}
+
+.register {
+  background-color: red;
+  border-radius: 40px;
+
+}
+
+.register:hover {
+  transform: scale(1.5);
+
+}
+
+.thumb {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+
+}
+
+.thumbs{
+  box-shadow: 4px 4px 6px #888888;
+  transform: rotateZ(20deg);
+  transform: rotateY(-40deg);
+  animation: three 2s infinite;
+  animation-direction: alternate;
+  background-color: #439772;
+}
+
+@keyframes three {
+  100% {
+    transform: rotateY(-800deg);
+  }
+  80% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.box {
+  border-radius: 20px;
+  border: none;
+  padding: 3px 3px; 
+  box-shadow: 4px 4px 6px #888888;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: brown;
+  background-color: rgba( 255, 0,0,0.2);
+  border-radius: 10px;
+  border: double;
+  box-shadow: 4px 4px 6px #888888;
+  padding: 3px 3px;
+  margin-right: 6px;
+}
