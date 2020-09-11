@@ -81,11 +81,11 @@ section {
 
 
 h1 {
-	text-align: center;
 	border: solid red;
-	width: 400px;
+	width: 370px;
 	display: flex;
 	justify-content: center;
+	overflow: hidden;
 	margin: 0 auto;
 	margin-top: 20px;
 	border-radius: 20px;
@@ -94,9 +94,7 @@ h1 {
 	box-shadow: 4px 4px 6px #888888;
 }	
 
-.buffer {
-	height: 4rem;
-}
+
 
 
 .A, .B, .C{
@@ -110,10 +108,20 @@ h1 {
 }
 
 .First{
-	display: flex;
 	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 	margin: 0 auto;
 	margin-right: 100px;
+
+}
+
+.planea, .mobileb, .carc {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-left: 90px;
+	padding: 5px 5px 5px 5px;
 
 }
 
@@ -126,6 +134,8 @@ h1 {
 
 
 }
+
+
 
 .Plane:hover {
 	border-radius: 5px;
@@ -177,18 +187,25 @@ h1 {
 
 .Exercise  {
 	display: flex;
-    justify-content: center;	
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     overflow: hidden;
     background-color: #FFE653;
     border-radius: 20px;
     box-shadow: 4px 4px 6px #888888;
+    padding: 5px 5px 5px 5px;
+    
 
-}
+    
+ }
 
 .like {
+	flex-wrap: wrap;
 	display: flex;
 	justify-content: center;
+	overflow: hidden;
 	background-color: rgba( 0, 0, 255, 0.1);
 	margin: 0 auto;
 	width: 400px;
