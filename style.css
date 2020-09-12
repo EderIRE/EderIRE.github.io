@@ -131,29 +131,33 @@ h1 {
 	transition: all 1s;
 	border-radius: 50px;
 	box-shadow: 4px 4px 6px #888888;
+	
 
 
 }
 
+.Plane, .Car{
 
-
-.Plane:hover {
-	border-radius: 5px;
-	position: relative;
-	animation: Plane 3s;
-	animation-play-state: running;
-
+animation: 
+     
+    nudge 5s linear infinite alternate;
+  
 }
 
-@keyframes Plane {
-	from {left: 0px;}
-    to {left: 20px;}
-
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(20px, 0);
+  }
+  
+  
 }
 
-
-.Mobile:hover {
-	 animation: Mobile 0.5s;
+.Mobile {
+	 animation: Mobile 0.5s infinite;
      animation-iteration-count: infinite;
 }
 
@@ -173,17 +177,7 @@ h1 {
 
 }
 
-.Car:hover {
- 	position: relative;
- 	animation: Car 3s;
- 	animation-play-state: running;
 
- }
-
-@keyframes Car {
-	from {left: 0px;}
-    to {left: 20px;}
-}
 
 .col{
  	background-color: #FFE653;
@@ -337,21 +331,21 @@ input[type="radio"]{
 	}
 }
 
-footer{
+pre{
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
-	margin-top: 7px;
+	margin-top: 15px;
 	border: none;
 	background-color: cyan;
 	width: 400px;
 	border-radius: 40px;
 	box-shadow: 4px 4px 6px #888888;
+
 }
 
-footer:hover {
-	transform: scale(1.1);
-}
+
+
 
 
 
