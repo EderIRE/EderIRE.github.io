@@ -289,6 +289,19 @@ input[type="radio"]{
 	justify-content: center;
 }
 
+#h1, #h2, #h3 {
+	font-size: 20px;
+	font-weight: bold;
+	background: rgba(165, 42, 42, 0.507);
+	margin: auto;
+	max-width: 300px;
+	border-radius: 20px;;
+}
+
+#h1 {
+	margin-top: 10px;
+}
+
 .Try, .Reset {
 	margin: 5px;
 	box-shadow: 4px 4px 6px #888888;
@@ -346,8 +359,7 @@ pre {
 
 }
 
-@import url('https://fonts.googleapis.com/css?family=Exo:700');
-@import url('https://fonts.googleapis.com/css?family=Abel');
+
 
 .container3 {
 	display: flex;
@@ -367,25 +379,21 @@ pre {
 	border-radius: 30px;
 	margin-top: 20px;
 	margin-bottom: 50px;
-	background: linear-gradient(rgb(225,150,58),rgb(227,144,91));
-	transition:.6s;
-
-	transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-	box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+	
+	
 }
+
 .card1:hover {
 
-	transform: rotatex(0deg);
-	transform: rotatez(0deg);
-	transition:.6s;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
-.card1 img{
-	transform: translateY(15px);
-	width:130px;
-	height:80px;
-}
+ #google {
+ 	margin: auto 0;
+ 	width: 230px;
+ 	height: 110px;
+ }
+
 
 
 
