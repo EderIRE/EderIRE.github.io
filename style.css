@@ -1,3 +1,8 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 .Register {
 	display: flex;
 	justify-content: center;
@@ -112,7 +117,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
-	margin-right: 100px;
+	
 
 }
 
@@ -120,7 +125,6 @@ h1 {
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
-	margin-left: 90px;
 	padding: 5px 5px 5px 5px;
 
 }
