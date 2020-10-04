@@ -1,5 +1,5 @@
 html, body {
-	
+	margin: auto;
 	height: 100%;
 	width: 100%;
 }
@@ -58,6 +58,7 @@ body {
 
 
 section {
+	
 	font-family: 'Comic Neue', cursive;
 }
 
@@ -125,8 +126,6 @@ h1 {
 }
 
 .planea, .mobileb, .carc {
-	display: flex;
-	justify-content: center;
 	margin: 0 auto;
 	padding: 5px 5px 5px 5px;
 
@@ -237,30 +236,19 @@ input[type="radio"]{
 }
 
 
-.checkbox {
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: row;
 
-}
 
 .boxes {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 10px;
 
 }
 
-.box1{
-	display: flex;
-	justify-content: center;
-	
-
-}
 
 .box2 {
-	display: flex;
-	justify-content: flex;
-	margin: 0 auto;
+	
+	
 	margin-top: 17px;
 	box-shadow: 4px 4px 6px #888888;
 	padding: 20px 20px;
@@ -268,12 +256,11 @@ input[type="radio"]{
 
 
 .span {
-	margin: 10px;
-	margin-left: 3px;
 	box-shadow: 4px 4px 6px #888888;
 	border-radius: 20px;
 	background-color: rgba(0, 255, 0, 0.2);
 	padding: 3px 3px;
+	margin-right: 10px;
 	animation: shimmy 3s infinite;
     animation-direction: alternate;
 }
