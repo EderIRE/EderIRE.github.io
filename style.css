@@ -1,414 +1,204 @@
-html, body {
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	
-	height: 100%;
-	width: 100%;
-}
+	<link rel="stylesheet" type="text/css" href="style.css"> 
 
-body {
+	<title>Practicing English</title>
+
+
+</head>
+
+<body>
 	
-	background: url(https://images.unsplash.com/photo-1517575563495-023867667b3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80) no-repeat center center fixed;
-	background: cover;
-}
+	<header>
 
-.Register {
-	text-align: center;
+		<div class="topnav">
 
-}
+					
+				<a class="active" href="https://www.dictionary.com/" target="_blank">  Dictionary.com </a> 
+				<a href="https://dictionary.cambridge.org/" target="_blank">Cambridge Dictionary </a> 
+				<a href="https://www.collinsdictionary.com/dictionary/english"target="_blank"> Collins Dictionary </a> 
+						
 
-.buttonR {
-  border-radius: 60px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 15px;
-  padding: 5px 20px 5px 20px;
-  width: 100px;
-  transition: all 0.5s;
-  cursor: pointer;
-  box-shadow: 4px 4px 6px #888888;
+		</div>
+		
+</header>
 
-}
+		<div class="Register">
 
-.buttonR span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+			<a href="register.html"> <button class="buttonR"><span>Register</span></button></a> 
+		</div>
 
-.buttonR span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.buttonR:hover span {
-  padding-right: 25px;
-}
-
-.buttonR:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-
-section {
-	font-family: 'Comic Neue', cursive;
-}
-
-.topnav {
-  display: flex;
-  justify-content: center;
-  margin: auto;	
-  margin-bottom: 20px;
-  overflow: hidden;
-  background-color: #333;
-  border-radius: 20px;
-  box-shadow: 4px 4px 6px #888888;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-
-
-h1 {
-	border: solid red;
-	display: flex;
-	justify-content: center;
-	overflow: hidden;
-	margin: 0 auto;
-	max-width: 400px;
-	margin-top: 20px;
-	border-radius: 20px;
-	padding: 10px 10px;
-	background-color: rgba( 0, 0, 255, 0.4);
-	box-shadow: 4px 4px 6px #888888;
-}	
-
-
-
-
-.A, .B, .C{
-    border:none;
-	border-radius: 30px;
-	background-color: #F9FDC7;
-	box-shadow: 4px 4px 6px #888888;
-	max-width: 100px;
-	text-transform: lowercase;
-
-
-	
-}
-
-.First{
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: center;
-	margin: 0 auto;
-	
-
-}
-
-.planea, .mobileb, .carc {
-	display: flex;
-	justify-content: center;
-	margin: 0 auto;
-	padding: 5px 5px 5px 5px;
-
-}
-
-.Plane,.Mobile,.Car {
-	margin: 0 auto;
-	max-width: 60px;
-	margin-right: 20px;
-	transition: all 1s;
-	border-radius: 50px;
-	box-shadow: 4px 4px 6px #888888;
 	
 
 
-}
+	<section>
 
-.Plane, .Car{
+		<div class="buffer">
 
-animation: 
-     
-    nudge 5s linear infinite alternate;
-  
-}
+			<h1> Basic English Test </h1> 
 
-@keyframes nudge {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  
-  50% {
-    transform: translate(20px, 0);
-  }
-  
-  
-}
+		</div>
 
-.Mobile {
-	 animation: Mobile 0.5s infinite;
-     animation-iteration-count: infinite;
-}
+		<div class="container">
+			<div class="row">
+				<div class="col ">
+					<div class="Uno"><strong>1.</strong> Write the words</div>
+				</div>
+			</div>
+		</div>
 
-@keyframes Mobile {
+		
+		<form>
+			<div class="First">
+				<div class="planea">
 
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+				
 
-}
-
-
-
-.col{
- 	background-color: #FFE653;
- 	border-radius: 20px;
- 	box-shadow: 4px 4px 6px #888888;
- 	margin: 0 auto;
- 	margin-top: 20px;
-    margin-bottom: 20px;
+					<img class="Plane" src="https://th.bing.com/th/id/OIP.A2ofr2IOaJvIWlkus5_R4QHaFF?pid=Api&rs=1" width="60" height="40">
 
-
- }
-
-.Uno {
- 	text-align: center;
-
- }
-
- 
-
-
-
-.like {
-	text-align: center;
-	font-weight: bold;
-	background-color: rgba( 0, 0, 255, 0.1);
-	margin: 0 auto;
-	max-width: 400px;
-	border-radius: 20px;
-	box-shadow: 4px 4px 6px #888888;
-
-}
-
-
-.options1,.options2,.options3{
-	border: solid blue;
-	border-radius: 20px;
-	background-color: #FFC269;
-	max-width: 300px;
-	margin: 0 auto;
-	margin-bottom: 10px;
-	padding-left: 10px;
-	box-shadow: 4px 4px 6px #888888;
-}
-
+					<input class="A" type="Text" name="A" placeholder="Type your answer here">
+				</div>
 
-input[type="radio"]{
-	margin: 5px 3px 5px 20px;
-
-}
-
-
-.checkbox {
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: row;
+				<div class="mobileb">
+			
 
-}
-
-.boxes {
-	display: flex;
-	justify-content: center;
-
-}
-
-.box1{
-	display: flex;
-	justify-content: center;
-	
-
-}
-
-.box2 {
-	display: flex;
-	justify-content: flex;
-	margin: 0 auto;
-	margin-top: 17px;
-	box-shadow: 4px 4px 6px #888888;
-	padding: 20px 20px;
-}
-
-
-.span {
-	margin: 10px;
-	margin-left: 3px;
-	box-shadow: 4px 4px 6px #888888;
-	border-radius: 20px;
-	background-color: rgba(0, 255, 0, 0.2);
-	padding: 3px 3px;
-	animation: shimmy 3s infinite;
-    animation-direction: alternate;
-}
-
-@keyframes shimmy {
-  0% {
-    transform: translate(0, 0);    
-  }
-  100% {
-    transform: translate(0px, 5px);
-  }
-}
-
-
-.button{
-	display: flex;
-	justify-content: center;
-}
-
-#h1, #h2, #h3 {
-	font-size: 20px;
-	font-weight: bold;
-	background: rgba(165, 42, 42, 0.507);
-	margin: auto;
-	max-width: 300px;
-	border-radius: 20px;;
-}
-
-#h1 {
-	margin-top: 10px;
-}
+					<img class="Mobile" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX19173197.jpg" width="60" height="40">
 
-.Try, .Reset {
-	margin: 5px;
-	box-shadow: 4px 4px 6px #888888;
-	border-radius: 20px;
+					<input class="B" type="Text" name="B" placeholder="Type your answer here">
 
-}
+				</div>
 
-.test{
-	border-radius: 10px;
-	background-color: yellow;
+				<div class="carc">
+				
 
-}
 
-.test:hover {
-	transform: scale(1.3);
-}
+				
 
-.end {
-	display: flex;
-	justify-content: center;
-	margin-top: 400px;
+					<img class="Car" src="https://goodolewoody.files.wordpress.com/2011/05/car_cartoon.jpg" width="60" height="40">
 
-}
+					<input class="C" type="Text" name="C" placeholder="Type your answer here">
 
-.img {
-	box-shadow: 4px 4px 6px #888888;
-	border-radius: 20px;
-	animation: skew 4s infinite;
-    transform: skew(20deg);
-    animation-direction: alternate;
+				</div>
+				
 
 
-}
 
-@keyframes skew {
-	0% {
-		transform: skewX(20deg);
-	}
-	100% {
-		transform: skewX(-20deg);
-	}
-}
 
-pre {
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 200px;
-	border: none;
-	background-color: cyan;
-	max-width: 300px;
-	border-radius: 40px;
-	box-shadow: 4px 4px 6px #888888;
+			</div>
+			<div id="h1" style="text-align: center;">
+				Good Luck !
+			</div>
 
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="Uno"><strong>2.</strong> Add the correct endings to turn these word into adjectives</div>
+					</div>
+				</div>
+			</div>
 
-}
 
+			<!-- <p class="Exercise"><strong>2.</strong> Add the correct endings to turn these word into adjectives</p> -->
 
+			<div class="option">
+				
+					<div class="options1">
+						<strong>1. Storm</li></strong>
+						<input type="radio" name="answer" value="Y" checked>Y
+						<input type="radio" name="answer" value="al">al
+						<input type="radio" name="answer" value="ful">ful
+					
+					</div>
 
-.container3 {
-	display: flex;
-	justify-content: center;
-	background-color: #dfe6e9;
-	-webkit-transform: perspective(900px);
-	-webkit-transform-style: preserve-3d;
-}
 
-.card1 {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	margin: auto 0;
-	max-width: 230px;
-	height: 110px;
-	border-radius: 30px;
-	margin-top: 20px;
-	margin-bottom: 50px;
-	
-	
-}
+					<div class="options2">
+						<strong>2. Peace</strong>
+						<input type="radio" name="answer2" value="Y" checked>Y
+						<input type="radio" name="answer2" value="al">al
+						<input type="radio" name="answer2" value="ful">ful
+					</div>
 
-.card1:hover {
+					<div class="options3">
 
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-}
+						<strong>3. Nation</strong>
+						<input type="radio" name="answer3" value="Y" checked>Y
+						<input type="radio" name="answer3" value="al">al
+						<input type="radio" name="answer3" value="ful">ful
+					</div>
+				
+				    
+			</div>
+                     <div id="h2" style="text-align: center;">
+						 Good Luck !
+					 </div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="Uno"><strong>3.</strong> Choose the word that fit in the blank to complete the sentence.</div>
+					</div>
+				</div>
+			</div>
 
- #google {
- 	margin: auto 0;
- 	max-width: 230px;
- 	
- }
+			<!-- <p class="Exercise"><strong>3.</strong>Choose the word that fit in the blank to complete the sentence.</p> -->
 
+			
+</div>
+				<div class="like"><em>I like to______________.</em><br>
+				</div>
 
+			
 
+			<div class="boxes">
 
+				<div class="box1"><input class="box2" type="checkbox" name="asnwerbox[1][]" value="1" style="width:1rem; height:1rem" checked><span class="span">ball</span></div>
+				<div class="box1"><input id="box2" class="box2" type="checkbox" name="asnwerbox[1][]" value="1" style="width:1rem; height:1rem" ><span class="span">swim</span></div>
+				<div class="box1"><input class="box2" type="checkbox" name="asnwerbox[1][]" value="1" style="width:1rem; height:1rem" ><span class="span">car</span></div>
+			</div>
+			<div id="h3" style="text-align: center;">
+				Good Luck !
+			</div>
 
+			<!--<input type="radio" name="Present" value="Present">Present<br>-->
 
+			<br>
+			<div class="button">
 
+				<div class="Try"><input id="Try1" class="test" type="button" value="Try"></div>
+				<div class="Reset"><input class="test" type="reset"></div>
 
+			</div>
 
+		</div>
 
+</form><br>
 
+		<div class="container3">
 
+		<div class="card1">
+			<a href="https://www.google.com/" target="_blank"> <img id="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Google-Logo.svg/1024px-Google-Logo.svg.png" alt="Google-Logo"></a>
+			
+		</div>
+	</div>
 
+		
+</section>
 
+
+<footer>
+	<pre class="animate__animated animate__heartBeat animate__infinite">Never be afraid to try new things !</pre>   
+</footer>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
