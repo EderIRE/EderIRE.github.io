@@ -14,11 +14,11 @@ var firstG = document.getElementById("box2")
 
 
 
-function isAnswerValidPress (){
-	if (event.keyCode === 13){
-		isAnswerValid()
-	}
-}
+// function isAnswerValidPress (){
+// 	if (event.keyCode === 13){
+// 		isAnswerValid()
+// 	}
+// }
 
 function isAnswerValidClick () {
 	isAnswerValid()
@@ -36,7 +36,7 @@ function isAnswerValid () {
 	var a3 = firstC.value;
 	if ( a1.length == 0 || a2.length == 0 || a3.length == 0) {
 		conclusion1.innerHTML = "You've forgotten to answer some question";
-	} else if ( a1 === "plane" && a2 === "mobile" && a3 === "car"){
+	} else if ( a1 === "plane" || a1 === "aeroplane" || a1 === "airplane" && a2 === "mobile phone" || a2 === "mobile" && a3 === "car"){
 		conclusion1.innerHTML = "Right :) !!!";
 	}else{
 		conclusion1.innerHTML =" Oops, something is wrong :( !!!";
@@ -62,16 +62,7 @@ function isAnswerValid3 () {
 }
 
 
-// function isAnswerValid2 () {
-// 	var a1 = firstA.value;
-// 	var a2 = firstB.value;
-// 	var a3 = firstC.value;
-// 	if ( a1 === "plane" && a2 === "mobile" && a3 === "car"){
-// 		alert("Right :) !!!");
-// 	}else {
-// 		alert ("WRONG :( !!!");
-// 	}
-// }
+
 
 // firstA.addEventListener("keypress", isAnswerValidPress);
 // firstB.addEventListener("keypress", isAnswerValidPress);
