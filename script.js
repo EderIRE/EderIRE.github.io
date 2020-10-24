@@ -45,20 +45,13 @@ const isAnswerValid = () => {
 
 
 const isAnswerValid2 = () => {
-	if ( firstD[0].checked && firstE[2].checked && firstF[1].checked){
-		conclusion2.innerHTML = "Great :) !!!"	
-	}else {
-		conclusion2.innerHTML = "Oops, something is wrong :( !!!"
-}	
+	firstD[0].checked && firstE[2].checked && firstF[1].checked ? conclusion2.innerHTML = "Great :) !!!" :	
+	conclusion2.innerHTML = "Oops, something is wrong :( !!!"
 }
 
 const isAnswerValid3 = () => {
-	if (firstG.checked === true){
-		conclusion3.innerHTML = "Amazing :) !!!"	
-	} else {
-		conclusion3.innerHTML = "Oops, something is wrong :( !!!"	
-	}
-
+	firstG.checked === true ? conclusion3.innerHTML = "Amazing :) !!!" : conclusion3.innerHTML = "Oops, something is wrong :( !!!"	
+	
 }
 
 
