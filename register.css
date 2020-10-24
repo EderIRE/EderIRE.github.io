@@ -1,4 +1,5 @@
 body {
+  
   background: url(https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7,21 +8,25 @@ body {
     
 }
 
+section {
+  height: 100%;
+  width: 100%;
+}
 
 
 .container {
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
   border: solid red;
   border-radius: 30px;
   margin: 0 auto;
-  max-width: 350px;
-  background-color: rgba(255, 165, 0, 0.73);
-  padding: 20px 10px;
   margin-top: 10px;
   margin-bottom: 20px;
+  max-width: 350px;
+  background-color: rgba(255, 165, 0, 0.73);
+  padding: 20px 10px;  
   box-shadow: 4px 4px 6px #888888;
 }
 
@@ -31,11 +36,13 @@ body {
 }
 
 h1 {
+  font-size: 20px;
   text-align: center;
   background-color: #FFF8CE;
-  margin: auto 0;    
+  margin: auto 0;
+  max-width: 100%;
   border-radius: 30px;
-  padding: 20px 30px 20px 30px;
+  padding: 20px ;
   box-shadow: 4px 4px 6px #888888;
   transform: rotateX(40deg);
   animation: one 2s infinite;
@@ -43,13 +50,11 @@ h1 {
 }
 
 .top {
-  margin: 0 auto;
+  margin: auto;
+  max-width: 100%;
 }
 
-.forms {
-  margin: auto 0;
-  margin-top: 20px;
-}
+
 
 @keyframes one {
   0% {
@@ -106,9 +111,6 @@ h1 {
   right: 0;
 }
 
-.reg {
-  
-}
 
 .register {
   background-color: red;
@@ -149,12 +151,20 @@ h1 {
   }
 }
 
+.forms {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
 .box {
+  max-width: 100px;
   border-radius: 20px;
   border: none;
   padding: 3px 3px; 
   box-shadow: 4px 4px 6px #888888;
 }
+
+
 
 .title {
   font-family: 'Montserrat', sans-serif;
@@ -166,8 +176,10 @@ h1 {
   box-shadow: 4px 4px 6px #888888;
   padding: 3px 3px;
   margin-right: 6px;
+  max-width: 100px;
 }
 
 footer {
   margin-top: 50px;
 }
+
