@@ -1,24 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
-  
-  background: url(https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    
+  background-color: #d8d8ac;
+  background-image: linear-gradient(315deg, #d8d8ac 0%, #c8c85e 74%);
+  min-height: 100vh;
 }
-
-section {
-  height: 100%;
-  width: 100%;
-}
-
 
 .container {
-  /* flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; */
   border: solid red;
   border-radius: 30px;
   margin: 0 auto;
@@ -26,7 +18,7 @@ section {
   margin-bottom: 20px;
   max-width: 350px;
   background-color: rgba(255, 165, 0, 0.73);
-  padding: 20px 10px;  
+  padding: 20px 10px;
   box-shadow: 4px 4px 6px #888888;
 }
 
@@ -38,11 +30,11 @@ section {
 h1 {
   font-size: 20px;
   text-align: center;
-  background-color: #FFF8CE;
+  background-color: #fff8ce;
   margin: auto 0;
   max-width: 100%;
   border-radius: 30px;
-  padding: 20px ;
+  padding: 20px;
   box-shadow: 4px 4px 6px #888888;
   transform: rotateX(40deg);
   animation: one 2s infinite;
@@ -53,8 +45,6 @@ h1 {
   margin: auto;
   max-width: 100%;
 }
-
-
 
 @keyframes one {
   0% {
@@ -70,12 +60,11 @@ h1 {
   justify-content: center;
 }
 
-
 .buttonR {
   border-radius: 60px;
   background-color: #f4511e;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 15px;
   padding: 5px 30px 5px 30px;
@@ -83,7 +72,6 @@ h1 {
   margin-top: 50px;
   transition: all 0.5s;
   cursor: pointer;
-
 }
 
 .buttonR span {
@@ -111,29 +99,24 @@ h1 {
   right: 0;
 }
 
-
 .register {
   background-color: red;
   border-radius: 40px;
   padding: 10px 10px;
   margin-top: 10px;
-
 }
 
 .register:hover {
   transform: scale(1.5);
-
 }
 
 .thumb {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  
-
 }
 
-.thumbs{
+.thumbs {
   box-shadow: 4px 4px 6px #888888;
   transform: rotateZ(20deg);
   transform: rotateY(-40deg);
@@ -160,17 +143,15 @@ h1 {
   max-width: 100px;
   border-radius: 20px;
   border: none;
-  padding: 3px 3px; 
+  padding: 3px 3px;
   box-shadow: 4px 4px 6px #888888;
 }
-
-
 
 .title {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: brown;
-  background-color: rgba( 255, 0,0,0.2);
+  background-color: rgba(255, 0, 0, 0.2);
   border-radius: 10px;
   border: double;
   box-shadow: 4px 4px 6px #888888;
@@ -182,4 +163,3 @@ h1 {
 footer {
   margin-top: 50px;
 }
-
