@@ -150,6 +150,7 @@ h1 {
 .title {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  text-align: center;
   color: brown;
   background-color: rgba(255, 0, 0, 0.2);
   border-radius: 10px;
